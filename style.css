@@ -182,18 +182,6 @@ hr {
   justify-content: space-between;
 }
 
-@media screen and (min-width: 1500px) {
-  .projects {
-    align-items: center;
-  }
-
-  .projectscontainer {
-    align-items: center;
-    justify-content: center;
-    width: 92%;
-  }
-}
-
 .project-container {
   display: flex;
   flex-direction: column;
@@ -211,6 +199,17 @@ hr {
   padding: 0.5, 0em;
   font-family: 'Roboto', sans-serif;
   margin: 0.2em;
+}
+@media screen and (min-width: 1500px) {
+  .projects {
+    align-items: center;
+  }
+
+  .projectscontainer {
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+  }
 }
 
 .projectpic {
@@ -267,8 +266,8 @@ hr {
   }
 
   .projectpic {
-    width: 80%;
-    height: 50%;
+    width: 90%;
+    height: 70%;
     border-radius: 5px;
     margin: 0.5em;
     border: 1px solid black;
@@ -350,4 +349,10 @@ footer {
   font-family: 'Roboto', sans-serif;
   color: white;
   padding-right: 2em;
+}
+
+@media screen and (max-width: 500px) {
+  h3 {
+    font-size: 0.8em;
+  }
 }
