@@ -307,7 +307,7 @@ hr {
   flex-direction: column;
   margin-top: 2em;
   margin-left: 2em;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .email-info-conatiner {
@@ -322,7 +322,7 @@ hr {
 @media screen and (max-width: 500px) {
   .email-info-conatiner {
     justify-content: flex-start;
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
 }
 
