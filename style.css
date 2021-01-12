@@ -335,8 +335,9 @@ hr {
   }
   .project-container {
     width: 95%;
-    height: 100%;
+    height: auto;
     margin-bottom: 2em;
+    font-size: 1.2em;
   }
   .projecttitle {
     font-size: 1.1em;
@@ -348,13 +349,9 @@ hr {
     margin: 0.5em;
     border: none;
   }
-  .project-container {
-    width: 85%;
-    margin-bottom: 2em;
-    font-size: 1.2em;
-  }
+
   .github-link p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 
