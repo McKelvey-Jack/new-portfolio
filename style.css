@@ -15,7 +15,7 @@ html {
 
 /* hero and nav  */
 
-li,
+.nav-links li,
 a {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -24,7 +24,7 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-  li,
+  .nav-links li,
   a {
     font-size: 1.3em;
   }
