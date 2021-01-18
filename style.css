@@ -242,7 +242,7 @@ hr {
 }
 
 .projecttitle {
-  font-size: 1.1em;
+  font-size: 1.3rem;
   padding: 0.5, 0em;
   font-family: 'Roboto', sans-serif;
   margin: 0.2em;
@@ -259,7 +259,7 @@ hr {
 .projectbody {
   font-family: sans-serif;
   padding: 0.3em;
-  font-size: 0.8rem;
+  font-size: 1rem;
   max-height: 10em;
   width: 100%;
 }
