@@ -205,7 +205,7 @@ hr {
     margin-bottom: 2em;
   }
   .innerskills li {
-    font-size: 3em;
+    font-size: 3.2em;
   }
   .skills-title h4 {
     font-size: 1.2em;
@@ -249,8 +249,9 @@ hr {
 }
 
 .projectpic {
-  width: 20rem;
-  height: 25rem;
+  width: 20em;
+  height: 25em;
+  background-color: red;
   border-radius: 5px;
   margin: 0.5em;
   border: 1px solid black;
@@ -291,7 +292,9 @@ hr {
   .projectscontainer {
     align-items: center;
     justify-content: center;
+    width: 90%;
   }
+
   .projectpic {
     width: 25rem;
     height: 30rem;
@@ -332,6 +335,7 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
   .project-container {
     width: 95%;
