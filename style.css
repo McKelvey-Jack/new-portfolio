@@ -337,7 +337,7 @@ hr {
     width: 85%;
     margin-bottom: 2em;
     font-size: 2em;
-    min-height: none;
+    min-height: 0px;
   }
 
   .project-container:hover {
@@ -373,7 +373,7 @@ hr {
     height: auto;
     margin-bottom: 2em;
     font-size: 1.2em;
-    min-height: none;
+    min-height: 0px;
   }
   .project-container:hover {
     transform: none;
