@@ -74,7 +74,7 @@ header {
   color: white;
   margin: 0 auto;
   white-space: nowrap;
-  animation: typing 1s steps(40, end), blink-caret 0.5s step-end infinite;
+  animation: typing 1.2s steps(40, end), blink-caret 0.5s step-end infinite;
 }
 
 @keyframes typing {
@@ -227,7 +227,6 @@ hr {
 
 .projects {
   width: 100vw;
-  min-height: 100vh;
   background-size: cover;
   background-color: #92c4f7;
   display: flex;
@@ -252,6 +251,13 @@ hr {
   align-items: center;
   align-content: flex-start;
   margin: 0.5em;
+  width: 30%;
+  min-height: 37em;
+}
+
+.project-container:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
 }
 
 .projecttitle {
@@ -259,12 +265,12 @@ hr {
   padding: 0.5, 0em;
   font-family: 'Roboto', sans-serif;
   margin: 0.2em;
+  color: black;
 }
 
 .projectpic {
   width: 20em;
-  height: 25em;
-  background-color: red;
+  height: 23em;
   border-radius: 5px;
   margin: 0.5em;
   border: 1px solid black;
@@ -308,6 +314,9 @@ hr {
     width: 90%;
   }
 
+  .project-container {
+    width: 33%;
+  }
   .projectpic {
     width: 25rem;
     height: 30rem;
