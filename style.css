@@ -254,7 +254,6 @@ hr {
   width: 30%;
   min-height: 37em;
 }
-
 .project-container:hover {
   transform: scale(1.05);
   transition: 0.5s ease-in-out;
@@ -317,6 +316,11 @@ hr {
   .project-container {
     width: 33%;
   }
+
+  .project-container:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+  }
   .projectpic {
     width: 25rem;
     height: 30rem;
@@ -333,6 +337,10 @@ hr {
     width: 85%;
     margin-bottom: 2em;
     font-size: 2em;
+  }
+
+  .project-container:hover {
+    transform: none;
   }
   .projectpic {
     width: 85%;
@@ -364,6 +372,9 @@ hr {
     height: auto;
     margin-bottom: 2em;
     font-size: 1.2em;
+  }
+  .project-container:hover {
+    transform: none;
   }
   .projecttitle {
     font-size: 1.1em;
