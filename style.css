@@ -92,16 +92,6 @@ header {
   }
 }
 
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: black;
-  }
-}
-
 @media screen and (max-width: 500px) {
   .hero-text {
     font-size: 1.5em;
@@ -123,6 +113,8 @@ header {
   background-color: #92c4f7;
   display: flex;
   flex-direction: column;
+  animation: fadeIn ease 2s;
+  -webkit-animation: slide_up ease 2s;
 }
 
 .biobody {
