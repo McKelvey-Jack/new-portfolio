@@ -74,7 +74,13 @@ header {
   color: white;
   margin: 0 auto;
   white-space: nowrap;
-  animation: typing 1.2s steps(40, end), blink-caret 0.5s step-end infinite;
+}
+
+.hero-text P {
+  animation: typing 1.2s steps(70, end), blink-caret 0.5s step-end infinite;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @keyframes typing {
@@ -83,6 +89,16 @@ header {
   }
   to {
     width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
   }
 }
 
